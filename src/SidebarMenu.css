@@ -1,0 +1,56 @@
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+  .btn-danger{
+    color: #004aad
+
+  }
+  
+  .sidebar.show {
+    transform: translateX(0);
+  }
+  
+  .sidebar-icon {
+    margin-right: 5px;
+  }
+  .navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .sidebar {
+    overflow-y: unset;
+    width: 250px;
+    background-color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .sidebar.show {
+    transform: translateX(0);
+  }
+  
+  
+  @media (max-width: 767px) {
+    .sidebar {
+     display: none;
+    }
+    .sidebar.show {
+      display: block;
+    }
+    
+  }
+ .myBlue{
+  color: #004aad !important;
+  font-size: smaller;
+ }
+  
+  

@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.sidebar {
+  width: 80px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  transition: width 0.3s;
+  position: relative;
+}
+
+/* .expanded {
+  width: 200px;
+} */
+
+.myBlueColor{
+  background-color: #004aad !important;
+ }
+.toggle-icons {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.mt-2{
+  margin-top: 5;
+}
+.mt-4{
+  margin-top: 10;
+}
+.mb-2{
+  margin-bottom: 5;
+}
+.mb-4{
+  margin-bottom: 10;
+}
+.tar{
+  text-align: right;
+}
+.float-right{
+  float:right ;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align icons to the left */
+  /* margin-top: 20px; */
+}
+
+.icon-button {
+  margin-bottom: 10px;
+  opacity: 0; /* Hide the icons by default */
+  transition: opacity 300s;
+}
+
+.visible {
+  opacity: 1; /* Show the icons when visible class is added */
+}
